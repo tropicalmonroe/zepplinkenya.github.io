@@ -1,0 +1,91 @@
+/*Store start*/
+.filtersection{
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: var(--color-3b4149);
+    padding: 10px 15px;
+}
+.filter-title{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.filter-title ul{
+    font-size: 13px;
+    list-style: none;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    color: var(--colorededed);
+    line-height: 30px;
+    cursor: pointer;
+}
+.filter-title .form-check:checked{
+    background-color: var(--color-FF5733);
+}
+.sub-title {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: var(--colorededed);
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.sub-title .form-label{
+    font-size: 13px;
+    list-style: none;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    color: var(--colorededed);
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.random-products h5{
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+.random-products:first-child{
+    border-bottom: 1px solid white;
+}
+.filter-sort-grid{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--color-FF5733);
+}
+.grid img{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.gr-12{
+    width: 100%;
+}
+.gr-6{
+    width: 48%;
+}
+.gr-4{
+    width: 32%;
+}
+.gr-3{
+    width: 24%;
+}
+.gr-6 .product-img{
+    width: 50%;
+}
+.gr-6 .product-img img{
+    margin: auto;
+    display: block;
+}
+
+.gr-12 .product-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.gr-12 .product-card .product-img{
+    width: 500px;
+}

@@ -1,0 +1,41 @@
+/*contact page*/
+.contact-info{
+    background-color: var(--color-232f3e);
+}
+.contact-info2{
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: var(--color-3b4149);
+    gap: 15px;
+}
+.contact-info2 > div{
+    width: 50%;
+}
+.contact-title{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 0;
+}
+.contact-info2 form .form-control{
+    background-color: var(--color-777777);
+    color: #fff;
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 10px;
+}
+.contact-info2 ul{
+    list-style: none;
+    color: #fff;
+}
+.contact-info2 address, .contact-info2 a, .contact-info2 p{
+    color: var(--color-2986CC);
+    cursor: pointer;
+    padding: 5px
+}
+.contact-info2 address:hover, .contact-info2 a:hover{
+    color: var(--color-FF5733);
+    transition: 500ms;
+    
+}

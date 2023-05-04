@@ -1,0 +1,18 @@
+footer{
+    background-color: var(--color-232f3e);
+    width: 100%;
+}
+footer:not(:first-child) {
+    border-top: 1px solid var(--color-3b4149);
+}
+footer .input-group-text {
+    background-color: var(--color-232f3e);
+    color: white;
+    font-size: 14px;
+}
+footer .input-group-text:hover{
+    background-color: var(--color-2986CC);
+    transition: ease-in-out 150ms;
+    -webkit-transition: background-color 500ms ease-out;
+    cursor: pointer;
+}

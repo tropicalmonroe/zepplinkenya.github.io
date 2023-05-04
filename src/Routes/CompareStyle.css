@@ -1,0 +1,36 @@
+.compare-product{
+    background-color: var(--color-ededed);
+}
+.compare-product-card{
+    padding: 20px 15px;
+    background-color: #fff;
+    border-radius:10px ;
+}
+.cross{
+    top: 15px;
+    left:15px;
+    width: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+.compare-products-details{
+    text-align: center;
+}
+.compare-products-details h5.title{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 500;
+    color: var(--color-1c1c1b);
+}
+.compare-products-details h6.price{
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 600;
+    color: var(--color-FF5733);
+}
+.compare-products-details .product-detail{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--color-FF5733);
+}

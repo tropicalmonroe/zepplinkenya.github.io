@@ -1,0 +1,15 @@
+.wishlist-card{
+    text-align: center;
+}
+.wishlist-card h5.title{
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 500;
+    color: var(--color-1c1c1b);
+}
+.wishlist-card h6.price{
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 600;
+    color: var(--color-FF5733);
+}
